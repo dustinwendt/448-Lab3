@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>CSS Manipulation</title>
+		<script type="text/javascript"
+				src="lab3.js">
+		</script>
+	</head>
+
+	<body>
+
+		<div id="nav">
+			<a href="index.html">Home</a>
+			<a href="passwordValidator.html">Password Validator</a>
+			<a href="slideShow.html">Slide Show</a>
+			<a href="profile.html">Profile</a>
+		</div>
+
+		<p id = "dummyText" style ="border:1px solid black; width:256px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<h3>Border</h3>
+		<table>
+			<tr>
+				<td>Red</td>
+				<td>Green</td>
+				<td>Blue</td>
+				<td>Width</td>
+			</tr>
+			<tr>
+				<td><input type = "text" id = "red-border"></td>
+				<td><input type = "text" id = "green-border"></td>
+				<td><input type = "text" id = "blue-border"></td>
+				<td><input type = "text" id = "width-border"></td>
+			</tr>
+		</table>
+
+		<h3>Background</h3>
+		<table>
+			<tr>
+				<td>Red</td>
+				<td>Green</td>
+				<td>Blue</td>
+			</tr>
+			<tr>
+				<td><input type = "text" id = "red-background"></td>
+				<td><input type = "text" id = "green-background"></td>
+				<td><input type = "text" id = "blue-background"></td>
+			</tr>
+		</table>
+
+		<button type="button" onClick = "changeColor()">Submit</button>
+		<p>Please input numbers from 0 to 255</p>
+	</body>
+</html>
